@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hockeys Hub</title>
+
+    <!-- ----------daisy ui + tailwind css-------------- -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- -------------------font awesome-------------------------- -->
+    <script
+      src="https://kit.fontawesome.com/db9e661b57.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ---------------------custom font------------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- -------------------------css file ---------------------------- -->
+    <link rel="stylesheet" href="src/output.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header class="container mx-auto px-5 lg:px-36 py-10">
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" class="flex gap-4 justify-between items-center">
+                <div class="block lg:hidden">
+                  <i class="fa-solid fa-bars font-extrabold"></i>
+                </div>
+                <div>
+                  <h3
+                    class="text-2xl lg:text-3xl font-extrabold text-[#131318]"
+                  >
+                    Hockey<span class="text-[#FF4240]">’</span>s
+                  </h3>
+                </div>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a>Homepage</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="navbar-center hidden lg:block">
+            <ul class="flex gap-8 justify-between text-[#424247]">
+              <li class="text-[#FF4240]"><a>Homepage</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end flex gap-6 justify-end">
+            <div>
+              <i
+                class="fa-solid fa-magnifying-glass text-2xl hidden lg:block"
+              ></i>
+            </div>
+            <div>
+              <button
+                class="px-4 py-2 lg:px-6 lg:py-4 text-white font-bold bg-[#FF4240] rounded-lg"
+              >
+                Get Ticket
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
