@@ -775,8 +775,10 @@
 
       <!-- ----------------------Get In Touch section starts ------------- -->
       <section class="my-10">
-        <div class="grid gap-5 grid-cols-1 lg:grid-cols-5">
-          <div class="col-span-2 border flex gap-4 lg:gap-6 flex-col p-6 lg:p-12 rounded-2xl">
+        <div class="grid lg:gap-5 grid-cols-1 lg:grid-cols-5">
+          <div
+            class="col-span-2 border flex gap-4 lg:gap-6 flex-col p-6 lg:p-12 rounded-2xl"
+          >
             <div class="rounded-2xl p-4 lg:p-8 bg-[#bced6d19]">
               <img src="./images/Group 1171275317.png" alt="" />
               <p class="text-[#13131866] pt-4">Phone Number</p>
@@ -794,20 +796,39 @@
             </div>
           </div>
           <div class="col-span-3">
-            <div class="flex">
+            <div class="flex gap-6 flex-col lg:flex-row mt-4">
               <div class="flex-1">
-                <label for="name">Your Name</label><br />
-                <input type="text" name="" id="name" />
+                <label class="text-[#131318] text-xl font-bold" for="name"
+                  >Your Name :</label
+                ><br />
+                <input
+                  class="min-w-[330px] h-[50px] rounded-xl mt-4 bg-[#13191308] pl-5"
+                  type="text"
+                  placeholder="Enter Name "
+                  name=""
+                  id="name"
+                />
               </div>
               <div class="flex-1">
-                <label for="email">Your Name</label><br />
-                <input type="email" name="" id="email" />
+                <label class="text-[#131318] text-xl font-bold" for="email"
+                  >Your Email</label
+                ><br />
+                <input
+                  class="min-w-[330px] h-[50px] rounded-xl mt-4 bg-[#13191308] pl-5"
+                  type="email"
+                  placeholder="Enter Email"
+                  name=""
+                  id="email"
+                />
               </div>
             </div>
-            <div class="flex">
+            <div class="flex gap-6 flex-col lg:flex-row mt-4">
               <div class="flex-1">
-                <label for="subject">Your Subject</label><br />
+                <label class="text-[#131318] text-xl font-bold" for="subject"
+                  >Your Subject</label
+                ><br />
                 <input
+                  class="min-w-[330px] h-[50px] rounded-xl mt-4 bg-[#13191308] pl-5"
                   type="text"
                   placeholder="Enter Your Subject"
                   name=""
@@ -815,8 +836,11 @@
                 />
               </div>
               <div class="flex-1">
-                <label for="Phone">Your Number</label><br />
+                <label class="text-[#131318] text-xl font-bold" for="Phone"
+                  >Your Number</label
+                ><br />
                 <input
+                  class="min-w-[330px] h-[50px] rounded-xl mt-4 bg-[#13191308] pl-5"
                   type="tel"
                   placeholder="Enter Your Phone Number"
                   name=""
@@ -824,20 +848,22 @@
                 />
               </div>
             </div>
-            <div>
-              <div>
-                <label for="textarea">Message</label><br />
+            <div class="mt-6">
+              <div class="space-y-4">
+                <label class="text-[#131318] text-xl font-bold" for="textarea"
+                  >Message</label
+                ><br />
                 <textarea
-                  class="w-full"
+                  class="w-full rounded-xl pt-4 bg-[#13191308] pl-5"
                   name=""
                   id="textarea"
                   cols="30"
-                  rows="5"
+                  rows="12"
                 >
-                 Write Your Message</textarea
+Write Your Message</textarea
                 >
               </div>
-              <button class="border w-full" type="submit">Send Message</button>
+              <button class="rounded-xl bg-[#FF4240] w-full my-4 py-4 text-white text-xl font-bold" type="submit">Send Message</button>
             </div>
           </div>
         </div>
